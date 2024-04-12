@@ -12,13 +12,14 @@ int main() {
 
     printf("Digite 6 números:\n");
 
-    // Solicita os números ao usuário e armazena no array
+    // Solicita os numeros ao usuário e armazena no array
     for (int i = 0; i < TAM; i++) {
         printf("Número %d: ", i + 1);
         scanf("%d", &numeros[i]);
+        fflush(stdin);
     }
 
-    // Verifica se cada número é par ou ímpar e incrementa os contadores
+    // Verifica se cada numero é par ou ímpar e incrementa os contadores
     for (int i = 0; i < TAM; i++) {
         if (numeros[i] % 2 == 0) {
             pares++;
