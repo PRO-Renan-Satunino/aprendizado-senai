@@ -32,5 +32,7 @@ public class Atvd1 {
         System.out.println("==============================================");
         System.out.println("Valor inteiro: " + valor);
         System.out.println("Valor das Parcelas: " + valorFinal);
+
+        teclado.close(); //serve para informar ao programa que nao recebera mais informacoes do Teclado, mas o programa continua
     }
 }
