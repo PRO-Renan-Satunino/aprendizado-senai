@@ -28,7 +28,8 @@ public class Juridica extends Pessoa {
 
     @Override
     public String toString() {
-        return
+        return 
+                super.toString() +
                 "\nCNPJ:" + cnpj +
                 "\nInscricaoEstadual:" + InscricaoEstadual;
     }

@@ -39,6 +39,7 @@ public class Fisica extends Pessoa {
     @Override
     public String toString() {
         return
+        super.toString() + 
          "\nCPF: " + cpf + 
         "\nRG: " + rg + 
         "\nData de Nascimento: " + dataNascimento;

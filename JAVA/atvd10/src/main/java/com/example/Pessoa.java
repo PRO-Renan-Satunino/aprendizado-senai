@@ -25,5 +25,11 @@ public abstract class Pessoa {
         this.telefone = telefone;
     }
 
+    @Override
+    public String toString() {
+        return "\nNome: " + nome + 
+                "\nTelefone: " + telefone;
+    }
+
     
 }
