@@ -1,9 +1,9 @@
 {
     "editor.wordWrap": "on",
     "files.autoSave": "afterDelay",
-    "files.autoSaveDelay": 500,
+    "files.autoSaveDelay": 30,
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "2077",
+    "workbench.colorTheme": "AMOLED Black Shiny",
     "editor.fontFamily": "Consolas, 'Courier New', monospace",
      "scm.inputFontFamily": "Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana",
     "editor.fontSize": 14,
