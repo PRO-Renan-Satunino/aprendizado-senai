@@ -1,6 +1,9 @@
 import javax.swing.; import java.awt.; import java.awt.event.*; import java.util.ArrayList;
 
-abstract class Veiculo { protected String marca; protected String modelo;
+abstract class Veiculo {
+    
+protected String marca; 
+protected String modelo;
 
 public Veiculo(String marca, String modelo) {
     this.marca = marca;
